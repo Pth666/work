@@ -1,0 +1,8 @@
+body {
+  height: 100%;
+  background-image: url('../image/http://background.jpg');
+}
+.starter{
+            padding: 40px 15px;
+            text-align:center;
+        }

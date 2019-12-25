@@ -1,0 +1,85 @@
+{% load static %}
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>首页</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+      <link href="{% static 'login/css/index.css' %}" rel="stylesheet"/>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#my-nav" aria-expanded="false">
+            <span class="sr-only">切换导航条</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">阳光借贷</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="my-nav">
+          <ul class="nav navbar-nav">
+            <li class="#"><a href="/index/">主页</a></li>
+              <li class="active"><a href="/about/">关于我们</a></li>
+              <li class="#"><a href="/message/">借贷中心</a></li>
+              <li class="#"><a href="/apply/">额度评估</a></li>
+              <li class="#"><a href="/repayments/">还款</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+              <li class="#"><a href="/logout/">登出</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+    <div clas="container">
+        <div class="starter">
+            <h1 style="text-shadow: 5px 5px 5px #FFFF00;">关于我们</h1>
+
+          <br>
+
+            <p class="lead">
+              阳光借贷创立于杭州师范大学，于2019年12月开始独立运营，是一家P2P网络借贷平台。公司以大数据、人工智能、物联网、区块链等时代前沿技术为核心，已经完成在数字金融，数字化企业服务，数字城市三大领域的全面布局，在客户群体上实现了个人端，企业端，政府端的三端合一。公司经营宗旨是从数据中来，到实体中去，在实体经济不断数字化的过程中创造社会价值。
+            </p>
+
+          <br>
+
+          <p class="lead">
+              秉持为中小型企业和创业团队提供优质资本提供的理念，阳光借贷在2019年11月11日成立，已经超过数月时间，这种金融中介助推小额借贷阳光化，也是具有标志性的一步。
+在杭州的借贷登记中心以公司形式运作，市民在借贷登记中心登记只要超过一万元都是免费的。同时在还有很多的中介、律师事务所等相关的配套的机构。
+只要借贷行为符合法定的利率，也就是说小额借贷的利率不能超过银行利率的四倍，私下完成协议的双方在借贷登记中心登记即可，通过借贷登记中心备案后，小额借贷行为被置于阳光下。
+借贷登记中心的成立的目的也就是为了让小额借贷阳光化、规范化，降低了小额借贷的投资风险。小额借贷的双方可以通过面谈，来谈借贷的条件、利率等，同时很多入住借贷登记中心的贷款服务公司提供了公证、担保以及其他法律方面的服务工作。
+一家入住借贷登记中心的小额贷款公司表示，在这里最大的好处就是政府认可这种经营模式，所以面临政策方面的风险也消除了。而且就性质来说，这些借贷公司本身也就是个服务的平台，可以在海量的商品黄总找到匹配的产品，解决了信息不对称的问题，供需双方尅有获得贷款利率、利息，提前还贷等方面的信息需求。
+            </p>
+
+          <br>
+
+          <br>
+
+          <p class="lead">
+          联系我们：SUN999666@163.com
+          </p>
+
+        </div>
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="{% static 'js/jquery-3.4.1.js' %}"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="{% static 'bootstrap/js/bootstrap.min.js' %}"></script>
+  </body>
+</html>
